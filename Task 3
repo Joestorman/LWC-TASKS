@@ -1,0 +1,67 @@
+Sign Up Form
+
+<html>
+<Head>
+    <title>Forms</title>
+</Head>
+   <body>
+      <form>
+        <label><b>First Name</b></label>
+        <input type="text" placeholder="Enter Firstname" name="Firstname" required><br>
+</br>
+         <label><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Lastname" name="Lastname" required><br> 
+</br>
+
+        <label><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required><br>
+      </br>
+    
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required><br>
+    </br>
+
+    <small>Select Gender :</small><br>
+</br>
+        
+         <input type="radio" name="gender" id="male"> 
+         <label for="male">Male</label>
+
+         <input type="radio" name="gender" id="female"> 
+         <label for="female">Female</label><br>
+</br>
+
+<small>Employee Status :</small><br>
+</br>
+
+         <label> <input type="checkbox"> Staff</label>
+         <label> <input type="checkbox"> Student</label><br>
+</br>
+
+         <button type="submit">Submit</button>
+     </form>
+   </body>
+</html>
+
+
+Displayquote Task
+
+<html>
+<head>
+	<title>Blockquote</title>
+</head>
+<body>
+	<h3>Test your knowledge</h3>
+	
+
+<p>“Do what you can, with what you have, where you are.”<br></p> <p>―Theodore Roosevelt.<br></p>
+
+
+	<!--Inside blockquotes-->
+	
+
+<p><blockquote>“Do what you can, with what you have, where you are.” ―Theodore Roosevelt.</blockquote></p>
+
+
+</body>
+</html>
